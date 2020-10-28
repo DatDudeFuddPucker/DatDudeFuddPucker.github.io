@@ -1,0 +1,113 @@
+body{
+    background-image: url('Three-Jokers.jpg')
+}
+.game
+{
+width: 1000px;
+height: 700px;
+margin: 0 auto;
+text-align:center;
+min-height:430px;
+background-image: url('Three-Joker.jpg');
+
+}
+
+.btn{
+    border:none;
+    padding: 10px 30px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:red;
+}
+
+.game h3
+{
+padding: 10px;
+/* background: yellow; */
+color:White;
+}
+
+.game .game-body
+{
+padding: 20px;
+}
+
+.game .game-options
+{
+text-align:center;
+}
+.game .card{
+    width: 50px;
+    height: 80px;
+    padding: 10px;
+    background-color: yellow;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 10pt;
+    text-align: center;
+    margin: 3px;
+    border:solid 3px blue;
+}
+
+.game .status
+{
+    display: inline-block;
+background: gold;
+border: solid 5px white;
+border-radius: 10px;
+padding: 5px 20px;
+margin: 0 auto;
+margin-top: 10px;
+display:none;
+}
+
+
+.players{
+       width: 500px;
+margin: 0 auto;
+margin-top: 20px;
+text-align: center;
+/* background-color: black; */
+color: black;
+}
+
+.player{
+    width: 40%;
+    border: solid 5px Navy;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    margin:1%;
+    vertical-align: top;
+    background: grey;
+}
+
+.player.active{
+    border: solid 5px yellow;
+}
+
+.points{
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.deck{
+    float:left;
+    background: yellow;
+    color:#222;
+    padding: 10px;
+    border-radius:10px;
+    border: double 5px;
+}
+
+.btn
+{
+    background:#222;
+    color:white !important;
+    border-radius:0px;
+}

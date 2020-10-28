@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BlackJack</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="game">
+            <h3>Dat Blackjack Table Doe</h3>
+    
+            <div class="game-body">
+                <div class="game-options">
+                    <input type="button" id="btnStart" class="btn" value="Deal Me In!!!" onclick="startblackjack()">
+                    <input type="button" class="btn" value="Hit Me Bruh!" onclick="hitMe()">
+                    <input type="button" class="btn" value="Nah I'm Good" onclick="stay()">
+                    </div>
+            
+                        <div class="status" id="status"></div>
+            
+                    <div id="deck" class="deck">
+                        <div id="deckcount">52</div>
+                    </div>
+            
+                    <div id="players" class="players">
+                    </div>
+            
+                    <div class="clear"></div>
+            </div>
+        </div>
+        <!--<script src="app.js" async defer></script> -->
+        <script src="app.js"></script>
+    </body>
+</html>
